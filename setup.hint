@@ -1,3 +1,4 @@
 category: X11
+requires: xproto
 sdesc: "Xorg XTrans common code and headers"
 ldesc: "Xorg XTrans common code and headers"
