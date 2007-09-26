@@ -19,15 +19,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xtrans-1.0.3-X-src.tar.bz2
+  unpack xtrans-1.0.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xtrans-1.0.3-X.cygport all
+  cygport ./xtrans-1.0.4-X.cygport all
 
 This will create:
-  /usr/src/xtrans-1.0.3-X-src.tar.bz2
-  /usr/src/xtrans-1.0.3-X.tar.bz2
+  /usr/src/xtrans-1.0.4-X-src.tar.bz2
+  /usr/src/xtrans-1.0.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -45,16 +45,19 @@ Files included in the binary package:
   /usr/include/X11/Xtrans/transport.c
   /usr/lib/pkgconfig/xtrans.pc
   /usr/share/aclocal/xtrans.m4
-  /usr/share/doc/Cygwin/xtrans-1.0.3.README
-  /usr/share/doc/xtrans-1.0.3/AUTHORS
-  /usr/share/doc/xtrans-1.0.3/COPYING
-  /usr/share/doc/xtrans-1.0.3/ChangeLog
-  /usr/share/doc/xtrans-1.0.3/INSTALL
-  /usr/share/doc/xtrans-1.0.3/README
+  /usr/share/doc/Cygwin/xtrans-1.0.4.README
+  /usr/share/doc/xtrans-1.0.4/AUTHORS
+  /usr/share/doc/xtrans-1.0.4/COPYING
+  /usr/share/doc/xtrans-1.0.4/ChangeLog
+  /usr/share/doc/xtrans-1.0.4/INSTALL
+  /usr/share/doc/xtrans-1.0.4/README
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.4-1 -----
+Version bump.
 
 ----- version 1.0.3-1 -----
 Version bump for X11R7.3.
