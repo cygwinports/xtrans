@@ -3,9 +3,9 @@ xtrans
 Xorg XTrans common code and headers
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygwin-1.5.25-15
+  cygport-0.4.1-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
   sed-4.1.5-2
@@ -19,15 +19,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xtrans-1.0.4-X-src.tar.bz2
+  unpack xtrans-1.2.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xtrans-1.0.4-X.cygport all
+  cygport ./xtrans-1.2.2-X.cygport all
 
 This will create:
-  /usr/src/xtrans-1.0.4-X-src.tar.bz2
-  /usr/src/xtrans-1.0.4-X.tar.bz2
+  /usr/src/xtrans-1.2.2-X-src.tar.bz2
+  /usr/src/xtrans-1.2.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -38,23 +38,24 @@ Files included in the binary package:
   /usr/include/X11/Xtrans/Xtransdnet.c
   /usr/include/X11/Xtrans/Xtransint.h
   /usr/include/X11/Xtrans/Xtranslcl.c
-  /usr/include/X11/Xtrans/Xtransos2.c
   /usr/include/X11/Xtrans/Xtranssock.c
   /usr/include/X11/Xtrans/Xtranstli.c
   /usr/include/X11/Xtrans/Xtransutil.c
   /usr/include/X11/Xtrans/transport.c
   /usr/lib/pkgconfig/xtrans.pc
   /usr/share/aclocal/xtrans.m4
-  /usr/share/doc/Cygwin/xtrans-1.0.4.README
-  /usr/share/doc/xtrans-1.0.4/AUTHORS
-  /usr/share/doc/xtrans-1.0.4/COPYING
-  /usr/share/doc/xtrans-1.0.4/ChangeLog
-  /usr/share/doc/xtrans-1.0.4/INSTALL
-  /usr/share/doc/xtrans-1.0.4/README
+  /usr/share/doc/xtrans-1.2.2/AUTHORS
+  /usr/share/doc/xtrans-1.2.2/COPYING
+  /usr/share/doc/xtrans-1.2.2/ChangeLog
+  /usr/share/doc/xtrans-1.2.2/INSTALL
+  /usr/share/doc/xtrans-1.2.2/README
 
 ------------------
 
 Port Notes:
+
+----- version 1.2.2-1 -----
+Version bump.
 
 ----- version 1.0.4-1 -----
 Version bump.
