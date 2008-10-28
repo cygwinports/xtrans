@@ -1,6 +1,6 @@
 xtrans
 ------------------------------------------
-Xorg XTrans common code and headers
+X.Org XTrans common code and headers
 
 Build requirements:
   cygwin-1.5.25-15
