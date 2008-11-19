@@ -1,5 +1,14 @@
 --- origsrc/xtrans-1.2.2/Xtransutil.c	2008-10-07 08:55:17.000000000 -0500
 +++ src/xtrans-1.2.2/Xtransutil.c	2008-11-12 21:04:47.652402400 -0600
+@@ -484,7 +484,7 @@
+ 	}
+ 	/* Dir doesn't exist. Try to create it */
+ 
+-#ifndef WIN32
++#if !defined(WIN32) && !defined(__CYGWIN__)
+ 	/*
+ 	 * 'sticky' bit requested: assume application makes
+ 	 * certain security implications. If effective user ID
 @@ -609,7 +609,7 @@
  		    return -1;
  		}

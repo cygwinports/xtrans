@@ -54,6 +54,9 @@ Files included in the binary package:
 
 Port Notes:
 
+----- version 1.2.2-3 -----
+Also fix bogus error: "euid != 0, directory /tmp/.X11-unix will not be created".
+
 ----- version 1.2.2-2 -----
 Silences bogus warning: "Owner of /tmp/.X11-unix should be set to root".
 
