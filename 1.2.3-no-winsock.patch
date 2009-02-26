@@ -1,0 +1,10 @@
+--- origsrc/xtrans-1.2.3/xtrans.m4	2008-12-01 10:09:13.000000000 -0600
++++ src/xtrans-1.2.3/xtrans.m4	2009-02-25 23:35:02.544875000 -0600
+@@ -32,7 +32,6 @@ AC_DEFUN([XTRANS_TCP_FLAGS],[
+  # SVR4 hides these in libraries other than libc
+  AC_SEARCH_LIBS(socket, [socket])
+  AC_SEARCH_LIBS(gethostbyname, [nsl])
+- AC_HAVE_LIBRARY([ws2_32])
+ 
+  # Needs to come after above checks for libsocket & libnsl for SVR4 systems
+  AC_ARG_ENABLE(ipv6, 

@@ -1,3 +1,0 @@
-inherit xorg
-
-PATCH_URI="1.2.2-no-root-user.patch"
