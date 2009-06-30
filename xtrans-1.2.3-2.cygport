@@ -1,0 +1,5 @@
+inherit xorg
+
+PATCH_URI="1.2.2-no-root-user.patch
+           1.2.3-no-winsock.patch
+           1.2.3-inet6-listener.patch"

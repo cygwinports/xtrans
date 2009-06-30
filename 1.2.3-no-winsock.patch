@@ -1,3 +1,5 @@
+This needs to be conditional on MinGW only; Cygwin must NOT use winsock.
+
 --- origsrc/xtrans-1.2.3/xtrans.m4	2008-12-01 10:09:13.000000000 -0600
 +++ src/xtrans-1.2.3/xtrans.m4	2009-02-25 23:35:02.544875000 -0600
 @@ -32,7 +32,6 @@ AC_DEFUN([XTRANS_TCP_FLAGS],[
