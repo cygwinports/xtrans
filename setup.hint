@@ -1,4 +1,0 @@
-category: X11
-requires: xproto
-sdesc: "X.Org XTrans common code and headers"
-ldesc: "X.Org XTrans common code and headers"

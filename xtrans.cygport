@@ -1,0 +1,8 @@
+inherit xorg
+
+NAME="xtrans"
+VERSION=1.2.7
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="X.Org XTrans common code and headers"
+DESCRIPTION="X.Org XTrans common code and headers"
