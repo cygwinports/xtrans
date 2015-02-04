@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="xtrans"
-VERSION=1.3.4
+VERSION=1.3.5
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="X.Org transport code and headers"
